@@ -1,0 +1,154 @@
+
+
+
+/* universal style */
+
+body{
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  color: seashell;
+  font-size: 22px;
+  background-color: black;
+  font-family: helvetica, sans-serif;
+  opacity: 0.9;
+  overflow: scroll;
+}
+/*  header section */
+header{
+  width: 1250px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 69px;
+  padding-right: 200px;
+}
+a {
+  color: seashell;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.logo{
+  background-image: url("../resources/images/logo.png");
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  height: 50px;
+  width:250px;
+  margin: 0 570px 0 10px;
+  }
+
+nav span{
+  text-decoration: underline;
+}
+
+  /*   mission section   */
+
+.mission{
+  background-image: url('../resources/images/mission-background.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 62px;
+  width:1200px;
+  height: 700px;
+  padding-bottom: 50px;
+}
+
+.content{
+  background-color: black;
+  Width: 1250px;
+}
+
+  /*  featured tea section  */
+
+.featured{
+padding-top: 50px;
+margin-bottom: 50px;
+}
+
+.heading {
+  background-color: black;
+  Width:1250px;
+}
+
+.img.cont{
+  width: 1000px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  position: relative;
+  left:120px;
+}
+
+.img-content img{
+  height: 200px;
+  width:300px;
+  margin: 20px 30px 10px 0;
+}
+
+/* location section */
+
+.location{
+  background-image: url('../resources/images/locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-bottom: 80px;
+  }
+
+.loc{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+  }
+
+#title{
+position:relative;
+top: 55px;
+left: 550px;
+ }
+
+.loc-1{
+  background-color: black;
+  opacity: 1.0;
+  width: 300px;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+.street{
+  display:block;
+  margin-bottom: 40px;
+}
+
+/*  footer section */
+
+.info{
+  display:flex;
+  justify-content: center;
+  position: relative;
+}
+
+a#color{
+  color: #03a9f4;
+}
+.contact{
+  height: 200Px;
+  margin-bottom: px;
+
+}
+.copyright{
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+}
